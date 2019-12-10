@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "production": "pm2 start npm --name \"react-native-health-backend\" -- run server",
-    "server": "json-server ./server/db.json -m ./node_modules/json-server-auth  -r ./server/routes.json --port 3332",
+    "server": "json-server ./server/db.json -m ./node_modules/json-server-auth  -r ./server/routes.json --port 3332 --host 0.0.0.0",
     "dev": "json-server --watch ./server/db.json -m ./node_modules/json-server-auth  -r ./server/routes.json --port 3333",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
