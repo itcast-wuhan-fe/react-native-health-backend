@@ -1,0 +1,177 @@
+{
+  "users": [
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$DygFZcAG9vOMaIkiGoG7x.Zf3kAT8wB6s/Cw0i7kWPlDZk93WdY8G",
+      "id": 1
+    },
+    {
+      "email": "123@qq.com",
+      "password": "$2a$10$ioW3XnQTI7Da2.jebJCNdecQ43WnSvTMZZHnazNO/VYUz5wwAUKfK",
+      "id": 2
+    },
+    {
+      "email": "1@qq.com",
+      "password": "$2a$10$V0KNeCdWKRBk2.hIWXC.lOVth0jiXgL.5QDgHnSeT5Qkqk7FhMy2i",
+      "id": 3
+    },
+    {
+      "email": "2@qq.com",
+      "password": "$2a$10$0DdwN4vRp17uOQXmvpSEtOug5BvQfGV0evZBB6f8STSajIR6MjE/W",
+      "id": 4
+    },
+    {
+      "email": "4@qq.com",
+      "password": "$2a$10$rsh5/uIOK.eD5AU5gAeqGeFgODX6N6XrLkSqhi6CV3jAQfPe0B99q",
+      "id": 5
+    }
+  ],
+  "reservationList": [
+    {
+      "title": "入职无忧套餐",
+      "subTitle": "基本检查，包含入职要求所有项目",
+      "imageUri": "https://wx1.sinaimg.cn/mw690/005SQLxwly1g9ey2fny93j306e050wf5.jpg",
+      "sex": "不限",
+      "age": "20-60",
+      "id": "1",
+      "items": [
+        {
+          "name": "一般检查",
+          "content": "身高 体重 体重指数 收缩压 舒张压",
+          "construction": "了解身体基本信息判断是否肥胖、超重"
+        },
+        {
+          "name": "传染病检查",
+          "content": "艾滋 非典 梅毒 水豆 手足口 淋病 乙型肝炎和丙型肝炎",
+          "construction": "了解是否犯有常见传染病"
+        }
+      ]
+    },
+    {
+      "title": "浪漫七夕体检-青年版",
+      "subTitle": "七夕节新品--免费升级前列腺",
+      "imageUri": "https://wx3.sinaimg.cn/mw690/005SQLxwly1g9ey2fnqljj306e05074x.jpg",
+      "sex": "男",
+      "age": "20-40",
+      "id": "2",
+      "items": [
+        {
+          "name": "一般检查",
+          "content": "身高 体重 体重指数 收缩压 舒张压",
+          "construction": "了解身体基本信息判断是否肥胖、超重"
+        },
+        {
+          "name": "中医检查",
+          "content": "颈椎病，过劳检查 亚健康检查",
+          "construction": "从中医角度了解身体情况"
+        }
+      ]
+    },
+    {
+      "title": "青年套餐A",
+      "subTitle": "针对青年人群 消化道疾病筛查 重要器官高清多普勒B超 肿瘤标志物检测",
+      "imageUri": "https://wx3.sinaimg.cn/mw690/005SQLxwly1g9ey2foa8fj306e05074y.jpg",
+      "sex": "不限",
+      "age": "20-40",
+      "id": "3",
+      "items": [
+        {
+          "name": "一般检查",
+          "content": "身高 体重 体重指数 收缩压 舒张压",
+          "construction": "了解身体基本信息判断是否肥胖、超重"
+        },
+        {
+          "name": "癌症筛查",
+          "content": "血癌(白血病) 骨癌 淋巴癌(包括淋巴细胞瘤) 肠癌 肝癌 胃癌 盆腔癌(包托子宫癌,宫颈癌) 检查",
+          "construction": "各种癌症提前筛查"
+        }
+      ]
+    },
+    {
+      "title": "中老年套餐A",
+      "subTitle": "针对中老年人群 消化道器官检查 心脑血管疾病筛查...",
+      "imageUri": "https://wx3.sinaimg.cn/mw690/005SQLxwly1g9ey2fnhhkj306e0500t7.jpg",
+      "sex": "女",
+      "age": "30-70",
+      "id": "4",
+      "items": [
+        {
+          "name": "一般检查",
+          "content": "身高 体重 体重指数 收缩压 舒张压",
+          "construction": "了解身体基本信息判断是否肥胖、超重"
+        },
+        {
+          "name": "癌症筛查",
+          "content": "血癌(白血病) 骨癌 淋巴癌(包括淋巴细胞瘤) 肠癌 肝癌 胃癌 盆腔癌(包托子宫癌,宫颈癌) 检查",
+          "construction": "各种癌症提前筛查"
+        },
+        {
+          "name": "心血管病筛查",
+          "content": "血压，血脂，心脏 静脉 动脉检查",
+          "construction": "提前发现中疯风险"
+        }
+      ]
+    }
+  ],
+  "reservationSubmit": [
+    {
+      "name": "11",
+      "sex": "男",
+      "phoneNumber": "22",
+      "idNumber": "33",
+      "marriage": "未婚",
+      "userId": "3",
+      "date": "2019-12-10T10:08:25.510Z",
+      "id": 1
+    },
+    {
+      "name": "333",
+      "sex": "男",
+      "phoneNumber": "33",
+      "idNumber": "33",
+      "marriage": "未婚",
+      "userId": "3",
+      "date": "2019-12-10T10:35:45.928Z",
+      "id": 2
+    },
+    {
+      "name": "1",
+      "sex": "男",
+      "phoneNumber": "11",
+      "idNumber": "1",
+      "marriage": "未婚",
+      "userId": "3",
+      "date": "2019-12-10T10:50:07.770Z",
+      "id": 3
+    }
+  ],
+  "reportList": [
+    {
+      "userId": 1,
+      "date": "2019.12.12",
+      "uploadDate": "2019.12.19 12:00",
+      "type": "入职体检",
+      "id": "0013243542",
+      "name": "谢永强",
+      "image": "https://wx2.sinaimg.cn/mw1024/005SQLxwly1g6f89l4obbj305v04fjsw.jpg"
+    },
+    {
+      "userId": 1,
+      "date": "2019.12.11",
+      "uploadDate": "2019.12.19 12:00",
+      "type": "入职体检",
+      "id": "001324353343",
+      "name": "谢永强",
+      "image": "https://wx2.sinaimg.cn/mw1024/005SQLxwly1g6f89l4obbj305v04fjsw.jpg"
+    },
+    {
+      "userId": 2,
+      "date": "2019.12.13",
+      "uploadDate": "2019.12.19 12:00",
+      "type": "入职体检",
+      "id": "001324352244",
+      "name": "王大为",
+      "image": "https://wx2.sinaimg.cn/mw1024/005SQLxwly1g6f89l4obbj305v04fjsw.jpg"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "react-native-health-backend",
+  "version": "1.0.0",
+  "description": "a mock backend for react-native-health",
+  "main": "index.js",
+  "scripts": {
+    "production": "pm2 start npm --name \"react-native-health-backend\" -- run server",
+    "server": "json-server ./server/db.json -m ./node_modules/json-server-auth  -r ./server/routes.json --port 3334",
+    "dev": "json-server --watch ./server/db.json -m ./node_modules/json-server-auth  -r ./server/routes.json --port 3333",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.itcast.cn/yangchuan/react-native-health-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.15.1",
+    "json-server-auth": "^1.2.1"
+  }
+}
