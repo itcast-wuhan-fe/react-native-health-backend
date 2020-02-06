@@ -6,6 +6,6 @@
 
 pm2 部署请运行 `npm run production`
 
-默认接口 3332，参考 package.json
+默认接口 13332，参考 package.json
 
-线上运行 地址 http://dev.itcastor.com:3332/
+线上运行 地址 http://dev.itcastor.com:13332/
